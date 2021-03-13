@@ -3,28 +3,31 @@
     <head>
         <link rel="stylesheet" type ="text/css" href="index.css">
         <title>DAIRY BUSINESS</title>
-
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
     </head>
         <body>
             <h1>MILK PER SHED</h1>
             <div class = "overall">
-                <form class = "form">
-                    <label id = "shedA">
-                       <div class="input"><b>SHADE A :</b><input type="number" name="shedA" placeholder="Enter Kilos of milk" required></div>
-                    </label>
-                    <label id = "shedB">
-                        <div class="input"><b>SHADE B :</b><input type="number" name="shedB" placeholder="Enter Kilos of milk" required></div>
-                    </label>
+                <form class="form">
+                    <div class="box">
+                       <div class="input"><b>SHADE A :</b><input type="number" id="shedA" placeholder="Enter Kilos of milk" required></div>
+                
+                        <div class="input"><b>SHADE B :</b><input type="number" id="shedB" placeholder="Enter Kilos of milk" required></div>
+                    
                   
-                    <label id = "shedC">
-                      <div class="input"><b>SHADE C :</b><input type="text" name="shedC" placeholder="Enter Kilos of milk" required></div>
-                    </label>
-                    <label id = "shedD">
-                       <div class="input"><b>SHADE D :</b><input type="number" name="shedD" placeholder="Enter Kilos of milk" required></div>
-                    </label>
-
+                      <div class="input"><b>SHADE C :</b><input type="text" id="shedC" placeholder="Enter Kilos of milk" required></div>
+                    
+                   
+                       <div class="input"><b>SHADE D :</b><input type="number" id="shedD" placeholder="Enter Kilos of milk" required></div>
+                    </div>
+                    <div class="gen">
+                    <button id="generate">GENERATE REPORT</button>
+                    </div>
+                
+                </form>
             </div>
-            <script src="dairy.js"></script>
+            <script src= "dairy.js"></script>
         </body>
           
 </html>
