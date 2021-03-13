@@ -3,12 +3,18 @@
     max-width: 90;
     margin: 0;
 }
-.overall label{
+.overall .box{
     display: block;
     margin: 0.5em;
 }
-.overall label input{
+.overall .box input{
     font-size: 18px;
     padding: 0.5em;
-    border: 1px solid seagreen;
+    border: 2px solid seagreen;
+}
+
+ .overall .box #cummulate{
+    width: 400;
+    margin: 0.5em;
+    align-items: center;
 }
