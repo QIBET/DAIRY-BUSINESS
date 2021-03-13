@@ -7,18 +7,19 @@ function = totalProduction() {
     var shedB = document.getElementById("shedB").value;
     var shedC = document.getElementById("shedC").value;
     var shedD = document.getElementById("shedD").value;
-     return(shedA + shedB + shedC + shedD);
 
-   console.log()
+   totalProduction(shedA + shedB + shedC + shedD);
+   var sheds = [shedA, shedB, shedC, shedD];
+   for(var i = 0; i = sheds.length; i++){
+       console.log("Your production in Shed A" +sheds[i]+ "litres per day ");
+       if{
+           sheds.length === 5;
+           console.log("The total production is "+totalProduction()+"litres per day");
+       }
 
-    /*if(!shedA || !shedB || !shedC || !shedD) 
-    {
-        alert("Please enter litres of all Sheds");
-        
-        //return;
-    }
-    else{
-       
-        alert(generate);
-    }*/
+   }
+    
+}
+else{
+    console.log("Kindly confirm your figures")
 }
