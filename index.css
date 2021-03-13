@@ -1,9 +1,14 @@
 .overall{
     width: 350px;
     max-width: 90;
-    margin: 0 auto;
+    margin: 0;
 }
 .overall label{
     display: block;
     margin: 0.5em;
+}
+.overall label input{
+    font-size: 18px;
+    padding: 0.5em;
+    border: 1px solid seagreen;
 }
