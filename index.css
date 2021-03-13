@@ -1,0 +1,9 @@
+.overall{
+    width: 350px;
+    max-width: 90;
+    margin: 0 auto;
+}
+.overall label{
+    display: block;
+    margin: 0.5em;
+}
