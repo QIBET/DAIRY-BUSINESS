@@ -1,32 +1,27 @@
-function totalProduction(a,b,c,d){
-    return a + b + c + d;
+function totalProduction(){
+ var shed = [];   
+
+
+     shed.push(document.getElementById('shedA').value);
+     shed.push(document.getElementById('shedB').value);
+     shed.push(document.getElementById('shedC').value);
+     shed.push(document.getElementById('shedD').value);
+
+console.log(shed)
+var shed = [a, b, c, d]
+var salesReport=document.getElementById("sales-report");
+if(a.lenghth === 0|| b.lenghth===0 || c.lenghth===0 || d.lenghth==0){
+
+}else{
+    a=parseFloat(a)
+    b=parseFloat(b)
+    c=parseFloat(c)
+    d=parseFloat(d)
+    console.log(a, b, c, d)
+    totalProduction(a,b,c,d)
+    }
 }
-function doMath() {
-
-    var shedA = Number(document.getElementById('shedA').value);
-    var shedB = Number(document.getElementById('shedB').value);
-    var shedC = Number(document.getElementById('shedC').value);
-    var shedD = Number(document.getElementById('shedD').value);
-
-   var sheds = totalProduction (shedA,shedB,shedC,shedD)
-
-  
+var totalProduction = function(a,b,c,d){
+    console.log(a,b,c,d)
+    var sum = a + b + c + d;
 }
-document.getElementById('generate').addEventListener('click', doMath);
-
-   
-   /*   
-   var sheds = [shedA, shedB, shedC, shedD];
-
-   for (var i = 0; i = sheds.length; i++){
-
-       console.log("Your production in Shed A" +sheds[i]+ "litres per day ");
-       
-       if (sheds.length === 5) {
-           
-
-           console.log("The total production is "+totalProduction()+"litres per day");
-       }
-    
-   }*/
-   
