@@ -20,12 +20,27 @@
                     
                    
                        <div class="input"><b>SHADE D :</b><input type="text" id="shedD" placeholder="Enter Kilos of milk" required></div><br>
+                        
+                       <div class="report">
+                        <div id="sales"></div>
+                        <div id="total"></div>
+                        </div>
                     </div>
                     <button id="generate">GENERATE REPORT</button>
-                                    
                 </form>
             </div>
-            <script src= "dairy.js"></script>
-        </body>
-          
+                    <h1>PAY OVER TIME</h1>
+                    <div class="input-field">
+                        <label for="days">Number of days</label>
+                        <input class="numbers" type="text" id="days" names="Number of days">
+                    </div>
+                    <div>
+                        <input class= "button"  type="button" value="INQUIRE" onclick=finance()>
+                       
+                    <div class="display-days" id="time-display"></div>
+                    
+                                    
+                
+         </body>
+         <script src= "dairy.js"></script>
 </html>
